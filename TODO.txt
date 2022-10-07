@@ -1,0 +1,51 @@
+##############################
+KeepLink PRO
+##############################
+
+Keeplink
+---------------------------------------
+-> log fichier
+-> changement de tray ICON si une alerte passe rouge
+-> passage internet par un proxy
+-> démarrage automatique / service
+-> définir l'adresse source du mail
+-> Ajouter alerte par execution
+-> Ajouter alerte par message popup
+-> creer un workspace
+
+
+
+DOC
+----------------------------------------
+-> En avoir plus sur les ports de communications
+
+Installeur
+----------------------------------------
+
+
+Fait
+-----------------
+Bêta 1.3
+-----------------
+Moteur de mise à jour geré par un Thread
+Boite de dialogue d'arrêt du logiciel
+Mise en place des boutons OK, annuler et appliquer
+modification des boutons ajouter et supprimer dans la barre d'outils
+ajout d'icones dans le menu contextuel
+refonte complete de la methode de création de regles
+nouveau scanner multi thread plus convivial, et plus stable.
+Modification de la bdl "modifier"
+
+1.0
+help tool pour les variables.
+mettre en place l'authentification SMTP avec cryptage du password
+
+
+1.1
+---------------------------------
+Ajout de l'emetteur de mail
+Correction du Helo dans l'envoi de mail
+Suppression des doublons dans la listes des ports
+Réduction de la fréquence de verification pour la mise à jour
+Retouche de la fenetre de modification de règle
+

@@ -1,0 +1,304 @@
+# Microsoft Developer Studio Generated Dependency File, included by KeepLink2.mak
+
+.\AjoutRegle.cpp : \
+	".\AjoutRegle.h"\
+	".\CISBitmap.h"\
+	".\ColorStaticST.h"\
+	".\HyperLink.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\Panneau.h"\
+	".\ScanDlg.h"\
+	".\ScanViewDlg.h"\
+	
+
+.\AlerteMailDlg.cpp : \
+	".\AlerteMailDlg.h"\
+	".\CCheckSK.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\MyTab.h"\
+	".\Panneau.h"\
+	".\ProprietiesDlg.h"\
+	
+
+.\AlerteSMSDlg.cpp : \
+	".\AlerteSMSDlg.h"\
+	".\CCheckSK.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\ModemInfo.h"\
+	".\MyTab.h"\
+	".\Panneau.h"\
+	".\ProprietiesDlg.h"\
+	
+
+.\AlerteSonDlg.cpp : \
+	".\AlerteSonDlg.h"\
+	".\CCheckSK.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\MyTab.h"\
+	".\Panneau.h"\
+	".\ProprietiesDlg.h"\
+	
+
+.\AlerteSyslogDlg.cpp : \
+	".\AlerteSyslogDlg.h"\
+	".\CCheckSK.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\MyTab.h"\
+	".\Panneau.h"\
+	".\ProprietiesDlg.h"\
+	
+
+.\Arret.cpp : \
+	".\Arret.h"\
+	".\KeepLink2.h"\
+	
+
+.\Base64.cpp : \
+	".\Base64.h"\
+	
+
+.\CCheckSK.cpp : \
+	".\CCheckSK.h"\
+	
+
+.\ChildFrm.cpp : \
+	".\ChildFrm.h"\
+	".\KeepLink2.h"\
+	
+
+.\CISBitmap.cpp : \
+	".\CISBitmap.h"\
+	
+
+.\ColorStaticST.cpp : \
+	".\ColorStaticST.h"\
+	
+
+.\cSound.cpp : \
+	".\cSound.h"\
+	
+
+.\GeneralDlg.cpp : \
+	".\CCheckSK.h"\
+	".\GeneralDlg.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\MyTab.h"\
+	".\Panneau.h"\
+	".\ProprietiesDlg.h"\
+	
+
+.\HyperLink.cpp : \
+	".\HyperLink.h"\
+	
+
+.\izssmsx.cpp : \
+	".\izssmsx.h"\
+	
+
+.\JMatrixCtrl.cpp : \
+	".\JMatrixCtrl.h"\
+	
+
+.\KeepLink2.cpp : \
+	".\ChildFrm.h"\
+	".\CISBitmap.h"\
+	".\JMatrixCtrl.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\MainFrm.h"\
+	".\Panneau.h"\
+	".\Splash.h"\
+	
+
+.\KeepLink2Doc.cpp : \
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\Panneau.h"\
+	
+
+.\KeepLink2View.cpp : \
+	".\AjoutRegle.h"\
+	".\AlerteSyslogDlg.h"\
+	".\Base64.h"\
+	".\CCheckSK.h"\
+	".\CISBitmap.h"\
+	".\ColorStaticST.h"\
+	".\cSound.h"\
+	".\HyperLink.h"\
+	".\izssmsx.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\MainFrm.h"\
+	".\MyTab.h"\
+	".\Panneau.h"\
+	".\ProprietiesDlg.h"\
+	".\SendSMSDlg.h"\
+	".\Smtp.h"\
+	
+
+.\MainFrm.cpp : \
+	".\Arret.h"\
+	".\CISBitmap.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\MainFrm.h"\
+	".\Panneau.h"\
+	".\PictureEx.h"\
+	".\Splash.h"\
+	".\Update.h"\
+	
+
+.\ModemInfo.cpp : \
+	".\ModemInfo.h"\
+	".\RegistryEx.h"\
+	
+
+.\MyTab.cpp : \
+	".\AjoutRegle.h"\
+	".\AlerteMailDlg.h"\
+	".\AlerteSMSDlg.h"\
+	".\AlerteSonDlg.h"\
+	".\AlerteSyslogDlg.h"\
+	".\CCheckSK.h"\
+	".\CISBitmap.h"\
+	".\ColorStaticST.h"\
+	".\GeneralDlg.h"\
+	".\HyperLink.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\ModemInfo.h"\
+	".\MyTab.h"\
+	".\Panneau.h"\
+	".\ProprietiesDlg.h"\
+	
+
+.\Panneau.cpp : \
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\Panneau.h"\
+	
+
+.\PictureEx.cpp : \
+	".\PictureEx.h"\
+	
+
+.\ProprietiesDlg.cpp : \
+	".\AlerteMailDlg.h"\
+	".\AlerteSMSDlg.h"\
+	".\AlerteSonDlg.h"\
+	".\AlerteSyslogDlg.h"\
+	".\CCheckSK.h"\
+	".\cSound.h"\
+	".\GeneralDlg.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\ModemInfo.h"\
+	".\MyTab.h"\
+	".\Panneau.h"\
+	".\ProprietiesDlg.h"\
+	
+
+.\RegistryEx.cpp : \
+	".\RegistryEx.h"\
+	
+
+.\ScanDlg.cpp : \
+	".\AjoutRegle.h"\
+	".\CISBitmap.h"\
+	".\ColorStaticST.h"\
+	".\HyperLink.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\Panneau.h"\
+	".\ScanDlg.h"\
+	
+
+.\ScanViewDlg.cpp : \
+	".\KeepLink2.h"\
+	".\ScanViewDlg.h"\
+	
+
+.\SendSMSDlg.cpp : \
+	".\izssmsx.h"\
+	".\KeepLink2.h"\
+	".\KeepLink2Doc.h"\
+	".\KeepLink2View.h"\
+	".\Panneau.h"\
+	".\SendSMSDlg.h"\
+	
+
+.\Smtp.cpp : \
+	".\Base64.h"\
+	".\Smtp.h"\
+	
+
+.\Splash.cpp : \
+	".\CISBitmap.h"\
+	".\Splash.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Update.cpp : \
+	".\KeepLink2.h"\
+	".\PictureEx.h"\
+	".\Update.h"\
+	
+
+.\KeepLink2.rc : \
+	".\res\AssortedQ-21.ico"\
+	".\res\desktop.ico"\
+	".\res\dialup.ico"\
+	".\res\email05.ico"\
+	".\res\fin.ico"\
+	".\res\frame.bmp"\
+	".\res\hand.cur"\
+	".\res\ico00001.ico"\
+	".\res\ico00002.ico"\
+	".\res\icon1.ico"\
+	".\res\icon_gre.ico"\
+	".\res\icon_mai.ico"\
+	".\res\icon_sms.ico"\
+	".\res\icon_son.ico"\
+	".\res\icon_sys.ico"\
+	".\res\KeepLink2.ico"\
+	".\res\KeepLink2.rc2"\
+	".\res\KeepLink2Doc.ico"\
+	".\res\logo.ico"\
+	".\res\nom.ico"\
+	".\res\search.ico"\
+	".\res\Slash.bmp"\
+	".\res\sms.ico"\
+	".\res\Software-59.ico"\
+	".\res\sound08.ico"\
+	".\res\syslog.ico"\
+	".\res\Toolbar.bmp"\
+	".\res\tray.ico"\
+	".\res\vbanner.bmp"\
+	".\res\Voyant.bmp"\
+	".\res\voyant1.bmp"\
+	".\res\world2.gif"\
+	

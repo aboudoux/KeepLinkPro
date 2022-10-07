@@ -1,0 +1,1115 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\KeepLink2.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.fra\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\KeepLink2.ico"
+IDR_KEEPTYPE            ICON    DISCARDABLE     "res\\KeepLink2Doc.ico"
+IDI_ICON_LOGO           ICON    DISCARDABLE     "res\\logo.ico"
+IDI_ICON_SON            ICON    DISCARDABLE     "res\\sound08.ico"
+IDI_ICON_MAIL           ICON    DISCARDABLE     "res\\email05.ico"
+IDI_ICON_SONDISABLE     ICON    DISCARDABLE     "res\\icon_son.ico"
+IDI_ICON_SYSLOG         ICON    DISCARDABLE     "res\\syslog.ico"
+IDI_ICON_SYSLOGDISABLE  ICON    DISCARDABLE     "res\\icon_sys.ico"
+IDI_ICON_MAILDISABLE    ICON    DISCARDABLE     "res\\icon_mai.ico"
+IDI_ICON_DESKTOP        ICON    DISCARDABLE     "res\\desktop.ico"
+IDI_ICON_SEARCH         ICON    DISCARDABLE     "res\\search.ico"
+IDI_ICON_SMS            ICON    DISCARDABLE     "res\\sms.ico"
+IDI_ICON_SMSDISABLE     ICON    DISCARDABLE     "res\\icon_sms.ico"
+IDR_TRAYICON            ICON    DISCARDABLE     "res\\tray.ico"
+IDI_ICON_MODEM          ICON    DISCARDABLE     "res\\dialup.ico"
+IDI_ICON_GREEN          ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_ICON_RED            ICON    DISCARDABLE     "res\\icon_gre.ico"
+IDI_ICON_INTERNET_OFF   ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_ICON_INTERNET_ON    ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_ICON_END            ICON    DISCARDABLE     "res\\fin.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_VOYANT              BITMAP  DISCARDABLE     "res\\Voyant.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\Slash.bmp"
+IDB_VBANNER             BITMAP  DISCARDABLE     "res\\vbanner.bmp"
+IDB_FRAME               BITMAP  DISCARDABLE     "res\\frame.bmp"
+IDB_LED_ALERTE          BITMAP  DISCARDABLE     "res\\voyant1.bmp"
+IDB_MENU_AJOUTER        BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+IDB_MENU_SUPPRIMER      BITMAP  DISCARDABLE     "res\\menu_ajo.bmp"
+IDB_MENU_STARTALL       BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_MENU_STOPALL        BITMAP  DISCARDABLE     "res\\menu_sta.bmp"
+IDB_MENU_START          BITMAP  DISCARDABLE     "res\\menu_sto.bmp"
+IDB_MENU_STOP           BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_VBANNER2            BITMAP  DISCARDABLE     "res\\vbanner2.bmp"
+IDB_MENU_MODIFIER       BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_MENU_PROPRIETE      BITMAP  DISCARDABLE     "res\\menu_mod.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  18, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_SAVEALL
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_RGL_DEMARRER
+    BUTTON      ID_RGL_ARRETER
+    SEPARATOR
+    BUTTON      ID_STARTALL
+    BUTTON      ID_STOPALL
+    SEPARATOR
+    BUTTON      ID_RGLES_RGLES_NOUVEAU
+    BUTTON      ID_OUTILS_RGLEDESURVEILLANCE_SUPPRIMER
+    BUTTON      ID_MODIF_REGLE
+    SEPARATOR
+    BUTTON      ID_OUTILS_PROPRITS
+    SEPARATOR
+    BUTTON      ID_TRAY
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Nouveau\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "&Ouvrir...\tCtrl+O",          ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Fichier récent",              ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Quitter",                    ID_APP_EXIT
+    END
+    POPUP "&Affichage"
+    BEGIN
+        MENUITEM "&Barre d'outils",             ID_VIEW_TOOLBAR
+        MENUITEM "Barre d'é&tat",               ID_VIEW_STATUS_BAR
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&A propos de KeepLink2...",   ID_APP_ABOUT
+    END
+END
+
+IDR_KEEPTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Nouveau\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "&Ouvrir...\tCtrl+O",          ID_FILE_OPEN
+        MENUITEM "&Fermer",                     ID_FILE_CLOSE
+        MENUITEM "&Enregistrer\tCtrl+S",        ID_FILE_SAVE
+        MENUITEM "En&registrer sous...",        ID_FILE_SAVE_AS
+        MENUITEM "Enregistrer tout\tCtrl+T",    ID_SAVEALL
+        MENUITEM SEPARATOR
+        MENUITEM "Fichier récent",              ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Quitter",                    ID_APP_EXIT
+    END
+    POPUP "&Edition"
+    BEGIN
+        MENUITEM "&Annuler\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Couper\tCtrl+X",             ID_EDIT_CUT
+        MENUITEM "&Copier\tCtrl+C",             ID_EDIT_COPY
+        MENUITEM "C&oller\tCtrl+V",             ID_EDIT_PASTE
+        MENUITEM "&Séléctionner tout\tCtrl+A",  ID_EDIT_SELECTALL
+    END
+    POPUP "&Affichage"
+    BEGIN
+        MENUITEM "&Barre d'outils",             ID_VIEW_TOOLBAR
+        MENUITEM "Barre d'é&tat",               ID_VIEW_STATUS_BAR
+    END
+    POPUP "Panneau de surveillance"
+    BEGIN
+        MENUITEM "Ajouter une règle de surveillance\t Ctrl+L", 
+                                                ID_RGLES_RGLES_NOUVEAU, HELP
+        MENUITEM "Supprimer les règles sélectionnées\tSuppr", 
+                                                ID_OUTILS_RGLEDESURVEILLANCE_SUPPRIMER
+
+        MENUITEM "Modifier la première règle sélectionnée\t Ctrl+M", 
+                                                ID_MODIF_REGLE
+        MENUITEM SEPARATOR
+        MENUITEM "Démarrer les règles sélectionnées\tEntrée", 
+                                                ID_RGL_DEMARRER
+        MENUITEM "Arrêter les règles sélectionnées\tEspace", ID_RGL_ARRETER
+        MENUITEM SEPARATOR
+        MENUITEM "Démarrer toutes les règles de tous les panneaux\tCtrl+Entrée", 
+                                                ID_STARTALL
+        MENUITEM "Arrêter toutes les règles de tous les panneaux\tCtrl+Espace", 
+                                                ID_STOPALL
+        MENUITEM SEPARATOR
+        MENUITEM "Propriétés du panneau de surveillance\tCtrl+P", 
+                                                ID_OUTILS_PROPRITS
+    END
+    POPUP "Fe&nêtre"
+    BEGIN
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Mosaïque",                   ID_WINDOW_TILE_HORZ
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "A&ide en ligne",              ID__AIDEENLIGNE
+        MENUITEM SEPARATOR
+        MENUITEM "&A propos de KeepLink PRO...", ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_EDIT_SELECTALL,      VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_RGLES_RGLES_NOUVEAU, VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_MODIF_REGLE,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_OUTILS_PROPRITS,     VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_SAVEALL,             VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_OUTILS_RGLEDESURVEILLANCE_SUPPRIMER, VIRTKEY, 
+                                                    NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_RETURN,      ID_BUTTON_START,        VIRTKEY, NOINVERT
+    VK_RETURN,      ID_STARTALL,            VIRTKEY, CONTROL, NOINVERT
+    VK_SPACE,       ID_BUTTON_STOP,         VIRTKEY, NOINVERT
+    VK_SPACE,       ID_STOPALL,             VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 335, 199
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "A propos de KeepLink PRO"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Static",IDC_MATRIX,0,0,335,200
+END
+
+IDD_KEEPLINK2_FORM DIALOG DISCARDABLE  0, 0, 400, 136
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_TABLEAU,"SysListView32",LVS_REPORT | 
+                    LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,0,0,400,135
+END
+
+IDD_NEW_RULE DIALOG DISCARDABLE  0, 0, 277, 181
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modification d'une règle de surveillance"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Définir sa politique de surveillance réseau autour de KeepLink PRO",
+                    IDC_STATIC_TITLE,60,12,212,8
+    LTEXT           "&Nom de la règle",IDC_STATIC_RULENAME,78,29,50,8
+    EDITTEXT        IDC_EDIT_NAME,78,41,175,15,ES_AUTOHSCROLL
+    LTEXT           "Nom ou a&dresse IP de la machine à surveiller",
+                    IDC_STATIC_IP,78,62,142,8
+    EDITTEXT        IDC_EDIT_ADRESSE,78,73,175,15,ES_AUTOHSCROLL
+    LTEXT           "&Surveiller périodiquement l'accès au port de communication suivant :",
+                    IDC_STATIC_SURVEILLE,78,97,175,16
+    COMBOBOX        IDC_COMBO1,78,118,175,114,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "&Modifier",ID_AJOUT,167,162,50,14
+    PUSHBUTTON      "&Quitter",IDQUIT,224,162,50,14
+END
+
+IDD_PROPRIETE DIALOG DISCARDABLE  0, 0, 340, 266
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Propriétés"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",0x0,0,0,340,240
+    PUSHBUTTON      "&Appliquer",IDC_APPLIQUER,285,247,50,15,WS_DISABLED
+    PUSHBUTTON      "A&nnuler",IDC_QUITTER,232,247,50,15
+    PUSHBUTTON      "&TEST",IDC_BUTTON_TEST,2,246,50,15
+    PUSHBUTTON      "&OK",IDOK,178,247,50,15
+END
+
+IDD_GENERAL DIALOG DISCARDABLE  0, 0, 336, 226
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Nom du panneau de surveillance :",IDC_STATIC,35,20,109,
+                    8
+    EDITTEXT        IDC_EDIT_PANNEAU_NAME,35,33,185,15,ES_AUTOHSCROLL
+    LTEXT           "Opérateur assigné à ce panneau de surveillance :",
+                    IDC_STATIC,35,61,158,8
+    EDITTEXT        IDC_EDIT_OPERATOR_NAME,35,72,185,15,ES_AUTOHSCROLL
+    LTEXT           "Temps de Rafraîchissement (secondes) :",IDC_STATIC,35,
+                    105,130,8
+    EDITTEXT        IDC_EDIT_TIME,167,103,25,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_SPIN_TIME,"msctls_updown32",UDS_ARROWKEYS,
+                    195,103,10,12
+    CONTROL         "Activer les alertes",IDC_CHECK_ALERTE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,35,132,90,21
+    ICON            IDI_ICON_DESKTOP,IDC_STATIC,310,5,20,20
+END
+
+IDD_ALERTE_MAIL DIALOG DISCARDABLE  0, 0, 336, 226
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Activer l'alerte par Email",IDC_CHECK_ACTIVE_MAIL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,10,270,20
+    LTEXT           "Executer cette alerte au bout de",IDC_STATICMAIL7,35,35,
+                    102,8
+    EDITTEXT        IDC_EDIT_ECHECMAIL,140,33,25,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPINMAIL,"msctls_updown32",UDS_ARROWKEYS,168,
+                    33,10,12
+    LTEXT           "echec(s) de connexion(s)",IDC_STATICMAIL8,181,35,80,8
+    GROUPBOX        "",IDC_STATIC,20,48,290,170
+    LTEXT           "Adresse du serveur SMTP",IDC_STATICMAIL1,35,59,84,8
+    EDITTEXT        IDC_EDIT_SMTP,35,69,115,15,ES_AUTOHSCROLL
+    LTEXT           "Adresse(s) Email(s) destinataire(s)",IDC_STATICMAIL2,35,
+                    90,105,8
+    EDITTEXT        IDC_EDIT_DEST_ADDR,35,100,115,15,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC_GBAUTH,165,60,135,55
+    CONTROL         "Requiert une authentification",IDC_CHECK_AUTH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,176,60,107,10
+    LTEXT           "Login :",IDC_STATICMAIL3,184,77,22,8
+    EDITTEXT        IDC_EDIT_MAIL_LOGIN,208,73,80,15,ES_AUTOHSCROLL
+    LTEXT           "Password :",IDC_STATICMAIL4,170,97,36,8
+    EDITTEXT        IDC_EDIT_MAIL_PASSWORD,208,93,80,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    LTEXT           "Sujet",IDC_STATICMAIL5,165,120,17,8
+    EDITTEXT        IDC_EDIT_SUJET,165,130,135,15,ES_AUTOHSCROLL
+    LTEXT           "Message",IDC_STATICMAIL6,35,148,30,8
+    EDITTEXT        IDC_EDIT_MESSAGE,35,159,265,51,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL
+    ICON            IDI_ICON_MAIL,IDC_ICON_MAIL_ENABLE,310,10,20,20
+    ICON            IDI_ICON_MAILDISABLE,IDC_ICON_MAIL_DISABLE,310,10,20,20
+    LTEXT           "Adresse Email de l'émetteur",IDC_STATIC_SOURCE_ADDR,35,
+                    120,87,8
+    EDITTEXT        IDC_EDIT_SOURCE_ADRESSE,35,130,115,15,ES_AUTOHSCROLL
+END
+
+IDD_ALERTE_SMS DIALOG DISCARDABLE  0, 0, 336, 226
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Activer l'alerte par message SMS",IDC_CHECK_SMS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,35,10,270,20
+    LTEXT           "Au bout de",IDC_STATIC_SMS1,35,43,36,8
+    EDITTEXT        IDC_EDIT_ECHECSMS,74,41,25,12,ES_AUTOHSCROLL
+    LTEXT           "echec(s) de connexion(s)",IDC_STATIC_SMS2,117,43,80,8
+    CONTROL         "Spin1",IDC_SPINSMS,"msctls_updown32",UDS_ARROWKEYS,101,
+                    41,11,12
+    ICON            IDI_ICON_SMS,IDC_ICON_SMS_ENABLE,310,10,20,20
+    LTEXT           "Envoyer un SMS au numéro",IDC_STATIC_SMS3,35,68,90,8
+    LTEXT           "En utilisant le modem",IDC_STATIC_SMS4,160,68,67,8
+    EDITTEXT        IDC_EDIT_NUMERO_SMS,35,78,100,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_MODEM,160,79,130,74,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Message",IDC_STATIC_SMS5,35,100,30,8
+    EDITTEXT        IDC_EDIT_MESSAGE_SMS,35,113,255,68,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL
+    ICON            IDI_ICON_SMSDISABLE,IDC_ICON_SMSDISABLE,310,10,20,20
+END
+
+IDD_ALERTE_SON DIALOG DISCARDABLE  0, 0, 336, 226
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Activer l'alerte par signal sonore",IDC_CHECK_SONENABLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,10,270,20
+    LTEXT           "Au bout de",IDC_STATIC_SON1,35,43,36,8
+    EDITTEXT        IDC_EDIT_ECHECSON,74,41,25,12,ES_AUTOHSCROLL
+    LTEXT           "echec(s) de connexion(s)",IDC_STATIC_SON2,117,43,80,8
+    LTEXT           "Jouer le son suivant :",IDC_STATIC_SON3,35,72,68,8
+    EDITTEXT        IDC_EDIT_FICHIERSON,35,83,155,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir",IDC_BUTTON_PARCOURIRSON,195,83,60,15
+    ICON            IDI_ICON_SON,IDC_ICON_SON_ENABLE,310,10,20,20
+    CONTROL         "Spin1",IDC_SPINSON,"msctls_updown32",UDS_ARROWKEYS,101,
+                    41,11,12
+    ICON            IDI_ICON_SONDISABLE,IDC_ICON_SON_DISABLE,310,10,20,20
+END
+
+IDD_ALERTE_SYSLOG DIALOG DISCARDABLE  0, 0, 336, 226
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Activer l'alerte par message syslog",IDC_CHECK_SYSLOG,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,10,270,20
+    LTEXT           "Au bout de",IDC_STATIC_SYSLOG1,35,36,36,8
+    EDITTEXT        IDC_EDIT_ECHEC_SYSLOG,76,34,25,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_SYSLOG,"msctls_updown32",UDS_ARROWKEYS,
+                    103,34,11,12
+    LTEXT           "echec(s) de connexion(s)",IDC_STATIC_SYSLOG2,118,35,85,
+                    10
+    LTEXT           "Envoyer une alerte au serveur syslog :",
+                    IDC_STATIC_SYSLOG3,35,58,121,8
+    EDITTEXT        IDC_EDIT_SERVEUR_SYSLOG,160,55,155,13,ES_AUTOHSCROLL
+    LTEXT           "en utilisant la facilité",IDC_STATIC_SYSLOG4,35,86,64,8
+    COMBOBOX        IDC_COMBO_SERVICE_SYSLOG,105,84,65,71,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "et le niveau de priorité",IDC_STATIC_SYSLOG5,175,86,70,
+                    8
+    COMBOBOX        IDC_COMBO_LEVEL_SYSLOG,250,84,65,71,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Message",IDC_STATIC_SYSLOG6,35,112,30,8
+    EDITTEXT        IDC_EDIT_MESSAGE_SYSLOG,35,124,280,13,ES_AUTOHSCROLL
+    ICON            IDI_ICON_SYSLOG,IDC_ICON_SYSLOG_ENABLE,310,10,20,20
+    ICON            IDI_ICON_SYSLOGDISABLE,IDC_ICON_SYSLOG_DISABLE,310,10,20,
+                    20
+END
+
+IDD_SEND_SMS DIALOG DISCARDABLE  0, 0, 222, 26
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_IZSSMSX1,"{ACBF5346-FD5B-4DC4-B081-ABE0783AF663}",
+                    WS_TABSTOP,29,5,190,15
+    ICON            IDI_ICON_MODEM,IDC_STATIC,2,1,21,20
+END
+
+IDD_UPDATE DIALOG DISCARDABLE  0, 0, 252, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Télechargement de la mise à jour de Keeplink PRO..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Static",IDC_PICTURE,0,0,55,45
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    4,70,245,8
+    LTEXT           "Connexion au site  www.techandfeel.com...",IDC_STATUS,
+                    65,20,180,10
+    LTEXT           "Taille de la mise à jour :",IDC_STATIC,5,52,74,8
+    LTEXT           "",IDC_STATIC_TAILLE,82,52,118,8
+    PUSHBUTTON      "Annuler",IDC_ANNULER,203,83,45,15
+END
+
+IDD_ARRET DIALOG DISCARDABLE  0, 0, 232, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Arrêt de KEEPLINK PRO"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,113,74,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,170,74,50,14
+    LTEXT           "Que voulez vous faire ?",IDC_STATIC,38,11,76,8
+    COMBOBOX        IDC_COMBO,36,24,184,62,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_DESCRIPTION,36,44,179,21
+    ICON            IDI_ICON_END,IDC_STATIC,6,11,21,20
+END
+
+IDD_AJOUT_SIMPLE DIALOG DISCARDABLE  0, 0, 283, 241
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Sélectionner un seul port pour cette règle de surveillance",
+                    IDC_RADIO_PORT_SIMPLE,"Button",BS_AUTORADIOBUTTON,10,51,
+                    195,10
+    CONTROL         "Sélectionner plusieurs ports pour cette règle de surveillance",
+                    IDC_RADIO_PORT_MULTIPLE,"Button",BS_AUTORADIOBUTTON,10,
+                    108,199,10
+    LTEXT           "Nom de la règle :",IDC_STATIC,5,13,54,8
+    EDITTEXT        IDC_EDIT_REGLE_NOM,75,10,161,15,ES_AUTOHSCROLL
+    LTEXT           "Machine à surveiller :",IDC_STATIC,5,32,68,8
+    EDITTEXT        IDC_EDIT_ADRESSE,75,29,161,15,ES_AUTOHSCROLL
+    GROUPBOX        "Surveillance périodique d'un port de communication",
+                    IDC_STATIC_GB_PORT_SIMPLE,10,68,229,32,BS_CENTER
+    COMBOBOX        IDC_COMBO_PORT,41,81,168,78,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Surveillance périodique de plusieurs ports de communication",
+                    IDC_STATIC_GB_PORT_MULTIPLE,10,123,229,107,BS_CENTER
+    EDITTEXT        IDC_EDIT_AJOUT_PORT,18,136,65,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "Ajouter ce port à la liste >>",IDC_BUTTON_AJOUT_PORT,89,
+                    136,95,15
+    LISTBOX         IDC_LIST_PORT,18,155,168,65,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Select all",IDC_SELECTALL,187,155,50,20,BS_MULTILINE
+    PUSHBUTTON      "Unselect all",IDC_UNSELECTALL,187,187,50,20,
+                    BS_MULTILINE
+END
+
+IDD_AJOUT DIALOG DISCARDABLE  0, 0, 342, 281
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ajout d'une règle de surveillance"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Ajouter",IDOK,223,262,50,14
+    PUSHBUTTON      "Quitter",IDCANCEL,280,262,50,14
+    CONTROL         "Tab1",IDC_TAB_AJOUT,"SysTabControl32",TCS_BUTTONS | 
+                    TCS_FIXEDWIDTH,65,7,265,253
+    PUSHBUTTON      "Scanner de port",IDC_BUTTON_SCAN,65,262,70,14
+END
+
+IDD_AJOUT_MULTIPLE DIALOG DISCARDABLE  0, 0, 283, 246
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Nom de la règle",IDC_STATIC,20,6,50,8
+    LTEXT           "Machine à surveiller",IDC_STATIC,107,6,64,8
+    LTEXT           "Port",IDC_STATIC,218,6,13,8
+    EDITTEXT        IDC_EDIT_NOM1,7,20,77,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADRESSE1,93,20,90,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PORT1,193,21,70,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOM2,7,41,77,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADRESSE2,93,41,90,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PORT2,193,42,70,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOM3,7,62,77,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADRESSE3,93,62,90,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PORT3,193,63,70,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOM4,7,83,77,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADRESSE4,93,83,90,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PORT4,193,84,70,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOM5,7,104,77,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADRESSE5,93,104,90,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PORT5,193,105,70,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOM6,7,125,77,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADRESSE6,93,125,90,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PORT6,193,126,70,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOM7,7,146,77,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADRESSE7,93,146,90,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PORT7,193,147,70,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOM8,7,167,77,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADRESSE8,93,167,90,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PORT8,193,168,70,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOM9,7,188,77,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADRESSE9,93,188,90,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PORT9,193,189,70,120,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_NOM10,7,209,77,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADRESSE10,93,209,90,15,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PORT10,193,210,70,120,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SCANNER DIALOG DISCARDABLE  0, 0, 242, 261
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "KeepLink Port Scanner"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Adresse ou nom de l'ordinateur :",IDC_STATIC,16,10,102,
+                    8
+    EDITTEXT        IDC_EDIT_SCAN_ADRESSE,16,20,189,15,ES_AUTOHSCROLL
+    LTEXT           "&Scanner du port :",IDC_STATIC,16,45,56,8
+    EDITTEXT        IDC_EDIT_SCAN_PORT_SOURCE,76,41,45,15,ES_AUTOHSCROLL
+    LTEXT           "au &port :",IDC_STATIC,126,44,27,8
+    EDITTEXT        IDC_EDIT_SCAN_PORT_DEST,156,41,50,15,ES_AUTOHSCROLL
+    GROUPBOX        "Options avancées",IDC_STATIC,11,60,194,45
+    CONTROL         "Scanner sur le réseau &local",IDC_EDIT_SCAN_RADIO1,
+                    "Button",BS_AUTORADIOBUTTON,17,73,101,10
+    CONTROL         "Scanner sur &internet",IDC_EDIT_SCAN_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,17,86,79,10
+    LTEXT           "Max Thread",IDC_STATIC,139,69,39,8
+    EDITTEXT        IDC_EDIT_SCAN_MAX_THREAD,142,82,35,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Démarrer",ID_SCAN_START,186,112,50,15,BS_MULTILINE
+    LISTBOX         IDC_EDIT_SCAN_LIST,11,113,169,75,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Progress1",IDC_EDIT_SCAN_PROGRESS,"msctls_progress32",
+                    WS_BORDER,11,191,169,10
+    LTEXT           "&Que voulez vous faire avec les ports trouvés?",
+                    IDC_STATIC_QUESTION,8,206,145,8,WS_DISABLED
+    COMBOBOX        ID_COMBO_SCAN,10,217,170,60,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Thread lancé",IDC_STATIC,186,143,43,8
+    EDITTEXT        IDC_EDIT_SCAN_LTHREAD,186,155,45,15,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Thread terminé",IDC_STATIC,186,175,48,8
+    EDITTEXT        IDC_EDIT_SCAN_TTHREAD,186,187,45,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "&Quitter",IDOK,186,245,50,14
+    ICON            IDI_ICON_SEARCH,IDC_STATIC,210,17,20,20
+    PUSHBUTTON      "&OK",IDC_OK,186,216,50,15,WS_DISABLED
+    LTEXT           "",IDC_DESCRIPT,10,234,140,26
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,1,1,0
+ PRODUCTVERSION 0,1,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "Comments", "Outils de surveillance réseau, par Aurélien BOUDOUX\0"
+            VALUE "CompanyName", "Tech&Feel\0"
+            VALUE "FileDescription", "KeepLink PRO\0"
+            VALUE "FileVersion", "0, 1, 1, 0\0"
+            VALUE "InternalName", "KeepLink PRO\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "KeepLink.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Application KeepLink PRO\0"
+            VALUE "ProductVersion", "0, 1, 1, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_KEEPLINK2_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 393
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 129
+    END
+
+    IDD_NEW_RULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_PROPRIETE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 333
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_ALERTE_MAIL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_ALERTE_SMS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_ALERTE_SON, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_ALERTE_SYSLOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_SEND_SMS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 19
+    END
+
+    IDD_UPDATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_ARRET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_AJOUT_SIMPLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_AJOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 335
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+
+    IDD_AJOUT_MULTIPLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_SCANNER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 254
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ALERTE_SYSLOG DLGINIT
+BEGIN
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 7, 0
+0x454b, 0x4e52, 0x4c45, "\000" 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 5, 0
+0x5355, 0x5245, "\000" 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 5, 0
+0x414d, 0x4c49, "\000" 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 7, 0
+0x4144, 0x4d45, 0x4e4f, "\000" 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 7, 0
+0x5953, 0x4c53, 0x474f, "\000" 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 4, 0
+0x504c, 0x0052, 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 5, 0
+0x454e, 0x5357, "\000" 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 5, 0
+0x5555, 0x5043, "\000" 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 5, 0
+0x5243, 0x4e4f, "\000" 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 9, 0
+0x5541, 0x4854, 0x5250, 0x5649, "\000" 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 4, 0
+0x5446, 0x0050, 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 8, 0
+0x454e, 0x4954, 0x464e, 0x004f, 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 11, 0
+0x4552, 0x4f4d, 0x4554, 0x5541, 0x4854, "\000" 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 8, 0
+0x4e49, 0x5453, 0x4c41, 0x004c, 
+    IDC_COMBO_SERVICE_SYSLOG, 0x403, 5, 0
+0x5541, 0x4854, "\000" 
+    IDC_COMBO_LEVEL_SYSLOG, 0x403, 6, 0
+0x4d45, 0x5245, 0x0047, 
+    IDC_COMBO_LEVEL_SYSLOG, 0x403, 6, 0
+0x4c41, 0x5245, 0x0054, 
+    IDC_COMBO_LEVEL_SYSLOG, 0x403, 9, 0
+0x5243, 0x5449, 0x5149, 0x4555, "\000" 
+    IDC_COMBO_LEVEL_SYSLOG, 0x403, 6, 0
+0x5245, 0x4f52, 0x0052, 
+    IDC_COMBO_LEVEL_SYSLOG, 0x403, 8, 0
+0x4157, 0x4e52, 0x4e49, 0x0047, 
+    IDC_COMBO_LEVEL_SYSLOG, 0x403, 7, 0
+0x4f4e, 0x4954, 0x4543, "\000" 
+    IDC_COMBO_LEVEL_SYSLOG, 0x403, 5, 0
+0x4e49, 0x4f46, "\000" 
+    IDC_COMBO_LEVEL_SYSLOG, 0x403, 6, 0
+0x4544, 0x5542, 0x0047, 
+    0
+END
+
+IDD_SEND_SMS DLGINIT
+BEGIN
+    IDC_IZSSMSX1, 0x376, 81, 0
+0x0000, 0x0000, 0x5054, 0x3046, 0x5407, 0x7a49, 0x5373, 0x736d, 0x0400, 
+0x654c, 0x7466, 0x0002, 0x5403, 0x706f, 0x0002, 0x5705, 0x6469, 0x6874, 
+0x1d03, 0x0601, 0x6548, 0x6769, 0x7468, 0x1802, 0x4d03, 0x6e69, 0x0002, 
+0x4d03, 0x7861, 0x0b02, 0x5306, 0x6f6d, 0x746f, 0x0968, 0x5004, 0x726f, 
+0x0674, 0x4304, 0x4d4f, 0x0031, "\000" 
+    0
+END
+
+IDD_ARRET DLGINIT
+BEGIN
+    IDC_COMBO, 0x403, 36, 0
+0x6c50, 0x6361, 0x7265, 0x4b20, 0x6565, 0x6c70, 0x6e69, 0x206b, 0x6164, 
+0x736e, 0x6c20, 0x2065, 0x7973, 0x7473, 0x6d65, 0x7420, 0x6172, 0x0079, 
+
+    IDC_COMBO, 0x403, 42, 0
+0xe952, 0x7564, 0x7269, 0x2065, 0x654b, 0x7065, 0x696c, 0x6b6e, 0x6420, 
+0x6e61, 0x2073, 0x616c, 0x6220, 0x7261, 0x6572, 0x6420, 0x7365, 0x7420, 
+0x63e2, 0x6568, 0x0073, 
+    IDC_COMBO, 0x403, 52, 0
+0x6e45, 0x6572, 0x6967, 0x7473, 0x6572, 0x2072, 0x6f74, 0x7375, 0x6c20, 
+0x7365, 0x7020, 0x6e61, 0x656e, 0x7561, 0x2c78, 0x7020, 0x6975, 0x2073, 
+0x6566, 0x6d72, 0x7265, 0x4b20, 0x6565, 0x6c70, 0x6e69, 0x006b, 
+    IDC_COMBO, 0x403, 38, 0
+0x6546, 0x6d72, 0x7265, 0x4b20, 0x6565, 0x6c70, 0x6e69, 0x206b, 0x6173, 
+0x736e, 0x7220, 0x6569, 0x206e, 0x6e65, 0x6572, 0x6967, 0x7473, 0x6572, 
+0x0072, 
+    0
+END
+
+IDD_SCANNER DLGINIT
+BEGIN
+    ID_COMBO_SCAN, 0x403, 37, 0
+0x654c, 0x2073, 0x6a61, 0x756f, 0x6574, 0x2072, 0x6f74, 0x7375, 0xe020, 
+0x6c20, 0x2061, 0x696c, 0x7473, 0x2065, 0xe967, 0xe96e, 0x6172, 0x656c, 
+"\000" 
+    ID_COMBO_SCAN, 0x403, 46, 0
+0x6a41, 0x756f, 0x6574, 0x2072, 0x6563, 0x7875, 0x7320, 0x6ce9, 0x6365, 
+0x6974, 0x6e6f, 0xe96e, 0x2073, 0x20e0, 0x616c, 0x6c20, 0x7369, 0x6574, 
+0x6720, 0x6ee9, 0x72e9, 0x6c61, 0x0065, 
+    ID_COMBO_SCAN, 0x403, 45, 0
+0x6552, 0x706d, 0x616c, 0x6563, 0x2072, 0x616c, 0x6c20, 0x7369, 0x6574, 
+0x6720, 0x6ee9, 0x72e9, 0x6c61, 0x2065, 0x6170, 0x2072, 0x6563, 0x7875, 
+0x7420, 0x6f72, 0x7675, 0x73e9, "\000" 
+    ID_COMBO_SCAN, 0x403, 50, 0
+0x6552, 0x706d, 0x616c, 0x6563, 0x2072, 0x616c, 0x6c20, 0x7369, 0x6574, 
+0x6720, 0x6ee9, 0x72e9, 0x6c61, 0x2065, 0x6170, 0x2072, 0x6563, 0x7875, 
+0x7320, 0x6ce9, 0x6365, 0x6974, 0x6e6f, 0xe96e, 0x0073, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND                CURSOR  DISCARDABLE     "res\\hand.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIFFILE
+//
+
+IDR_MONDE               GIFFILE DISCARDABLE     "res\\world2.gif"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "KeepLink PRO"
+    IDR_KEEPTYPE            "\nPanneau de surveillance \nKeep\nFichier KeepLink PRO (*.klp)\n.klp\nID\nKeep Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "KeepLink PRO"
+    AFX_IDS_IDLEMESSAGE     "Prêt"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "MAJ"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "DEF"
+    ID_INDICATOR_OVR        "ECR"
+    ID_INDICATOR_REC        "ENR"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Crée un nouveau panneau de surveillance\nNouveau panneau"
+    ID_FILE_OPEN            "Ouvre un panneau de surveillance existant\nOuvrir"
+    ID_FILE_CLOSE           "Ferme le panneau de surveillance actif\nFermer"
+    ID_FILE_SAVE            "Enregistre le panneau de surveillance actif\nEnregistrer"
+    ID_FILE_SAVE_AS         "Enregistre le panneau de surveillance actif sous un nouveau nom\nEnregistrer sous"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Affiche des informations sur le programme, le numéro de version et le copyright\nA propos de Keeplink PRO"
+    ID_APP_EXIT             "Ferme l'application ; propose d'enregistrer les documents\nQuitter"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE2       "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE3       "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE4       "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE5       "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE6       "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE7       "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE8       "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE9       "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE10      "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE11      "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE12      "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE13      "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE14      "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE15      "Ouvre ce panneau de surveillance"
+    ID_FILE_MRU_FILE16      "Ouvre ce panneau de surveillance"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Passe au volet de fenêtre suivant\nVolet suivant"
+    ID_PREV_PANE            "Revient au volet précédent\nVolet précédent"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Ouvre une nouvelle fenêtre pour le panneau de surveillance actif\nNouvelle fenêtre"
+    ID_WINDOW_ARRANGE       "Réorganise les icônes en bas de la fenêtre\nRéorganise les icônes"
+    ID_WINDOW_CASCADE       "Réorganise les fenêtres en cascade\nCascade"
+    ID_WINDOW_TILE_HORZ     "Réorganise les fenêtres en une mosaïque\nMosaïque"
+    ID_WINDOW_TILE_VERT     "Réorganise les fenêtres en une mosaïque\nMosaïque"
+    ID_WINDOW_SPLIT         "Réorganise les fenêtres en une mosaïque\nMosaïque"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Efface la sélection\nEffacer"
+    ID_EDIT_CLEAR_ALL       "Efface tout\nEffacer tout"
+    ID_EDIT_COPY            "Copie la sélection et la place dans le Presse-papiers\nCopier"
+    ID_EDIT_CUT             "Supprime la sélection et la place dans le Presse-papiers\nCouper"
+    ID_EDIT_FIND            "Recherche le texte spécifié\nRechercher"
+    ID_EDIT_PASTE           "Insère le contenu du Presse-papiers\nColler"
+    ID_NEWORK_INDICATOR     "Internet inaccessible       "
+    ID_EDIT_REPEAT          "Répète la dernière action\nRépéter"
+    ID_EDIT_REPLACE         "Remplace le texte spécifique par un texte différent\nRemplacer"
+    ID_EDIT_SELECT_ALL      "Sélectionne le document entier\nSélectionner tout"
+    ID_EDIT_UNDO            "Annule la dernière action\nAnnuler"
+    ID_EDIT_REDO            "Rétablit l'action précédemment annulée\nRétablir"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Affiche ou masque la barre d'outils\nBarre d'outils"
+    ID_VIEW_STATUS_BAR      "Affiche ou masque la barre d'état\nBarre d'état"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change la taille de la fenêtre"
+    AFX_IDS_SCMOVE          "Change la position de la fenêtre"
+    AFX_IDS_SCMINIMIZE      "Réduit la fenêtre en icône"
+    AFX_IDS_SCMAXIMIZE      "Agrandit la fenêtre au format de l'écran"
+    AFX_IDS_SCNEXTWINDOW    "Passe à la fenêtre de document suivante"
+    AFX_IDS_SCPREVWINDOW    "Passe à la fenêtre de document précédente"
+    AFX_IDS_SCCLOSE         "Ferme la fenêtre active et propose l'enregistrement des documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restaure la fenêtre à sa taille d'origine"
+    AFX_IDS_SCTASKLIST      "Active la liste des tâches"
+    AFX_IDS_MDICHILD        "Active cette fenêtre"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_RGLES_RGLES_NOUVEAU  "Ajoute une règle au panneau de surveillance\nAjouter"
+    ID_OUTILS_RGLEDESURVEILLANCE_SUPPRIMER 
+                            "Suprimme les règles sélectionnées dans le panneau de surveillance\nSupprimer"
+    ID_OUTILS_PROPRITS      "Définir les propriétés du panneau de surveillance\nPropriétés"
+    ID_BUTTON_START         "Démarrer les règles séléctionnées\nDémarrer"
+    ID_BUTTON_STOP          "Arrêter les règles séléctionnées\nArrêter"
+    ID_EDITION_SLCTIONNERTOUT 
+                            "Séléctionner toutes les règles du panneau de surveillance\nSéléctionner tout"
+    ID_EDIT_SELECTALL       "Séléctionne toutes les règles du panneau de surveillance courant"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Erreur d'initialisation WINSOCK !"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_RGL_ARRETER          "Arrête les règles sélectionnées dans le panneau de surveillance\nArrêter"
+    ID_RGL_DEMARRER         "Démarre les règles sélectionnées dans le panneau de surveillance\nDémarrer"
+    ID_TRAY                 "Réduire l'application dans la barre d'icône systray\nRéduire dans le systray"
+    ID_MODIF_REGLE          "Modifie la première règle de surveillance dans la sélection courante\nModifier"
+    ID_STARTALL             "Procède au démarrage de toutes les règles sur tous les panneaux de surveillance en cours\nTout démarrer"
+    ID_STOPALL              "Procède à l'arrêt de toutes les règles sur tous les panneaux de surveillance en cours\nTout arrêter"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SAVEALL              "Enregistre tous les panneaux de surveillance\nEnregistrer tout"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_AIDE                "Ce champ de saisie peut contenir des variables qui sont les suivantes :\r\n\r\n- $panneau_nom        : définit le nom du panneau qui a généré l'alerte\r\n- $responsable           : définit le nom du responsable assigné au \r\n                                    panneau de surveillance qui a généré l'alerte\r\n\r\n- $regle_nom              : définit le nom de la règle qui a généré l'alerte\r\n- $regle_adresse        : définit l'adresse de la règle ayant généré l'alerte\r\n- $regle_port              : définit le port de la règle ayant généré l'alerte\r\n- $regle_code-retour  : définit le code d'erreur de la règle qui a généré l'alerte\r\n\r\n- $heure : retourne l'heure courante\r\n- $date   : retourne la date courante\r\n"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE 12, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\KeepLink2.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.fra\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

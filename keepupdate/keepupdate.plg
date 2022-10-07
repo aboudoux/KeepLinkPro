@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: keepupdate - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/keepupdate.res" /d "NDEBUG" /d "_AFXDLL" "D:\code\KeepLink PRO\keepupdate\keepupdate.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/keepupdate.pdb" /machine:I386 /out:"Release/keepupdate.exe" 
+".\Release\CISBitmap.obj"
+".\Release\keepupdate.obj"
+".\Release\keepupdateDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\keepupdate.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+keepupdate.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
